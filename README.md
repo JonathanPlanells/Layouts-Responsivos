@@ -1,3 +1,3 @@
 # Proyecto Apeperia
 
-Archivos iniciales del proyecto para Apeperia del curso "Layouts Responsivos: Trabajando con layouts mobile", de Alura LATAM.
+Practicas iniciales de "Layouts Responsivos: Trabajando con layouts mobile", se crea una apeperia o tienda de apps para la practica.
