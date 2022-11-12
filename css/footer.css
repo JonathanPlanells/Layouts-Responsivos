@@ -11,6 +11,12 @@
 
 .footer__social {
     display: flex;
+    scale: 80%;
+}
+.footer__midia:hover{
+    transform: scale(1.1);
+    transition: .5s all;
+  
 }
 
 .footer__midia {
@@ -26,11 +32,29 @@
     color: var(--background-blanco);
     text-align: center;
     line-height: 3;
+    size: 1rem;
 }
 
 
 .footer__enlace {
     display: inline-block;
-
     margin: 0 .5rem .7rem;
+}
+
+.footer__enlace:hover{
+    color: orange;
+    transition: .5s all;
+  
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footer__navegacion {
+        text-align: left;
+        min-width: 600px;
+    }
 }

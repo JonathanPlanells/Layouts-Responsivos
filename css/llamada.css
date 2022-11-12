@@ -8,7 +8,7 @@
     
     background-color: var(--background-llamada-mobile);
 
-    padding-top: 12.25rem;
+    padding-top: 9.25rem;
     padding-bottom: 2.5rem;
 }
 
@@ -22,12 +22,30 @@
 }
 
 .llamada__texto {
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: normal;
-
+    width: 90%;
     margin: 0 auto 2.5rem;
 }
 
 .llamada__boton {
     width: 100%;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .llamada {
+        background-image: url(../img/bg-intro.jpg);
+        background-size: cover;
+
+        padding-top: 8.25rem;
+    }
+
+    .llamada__titulo {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+    .llamada__texto{
+        width: 70%;
+    }
 }

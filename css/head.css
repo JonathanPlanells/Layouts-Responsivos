@@ -19,6 +19,8 @@
 
 .head__logo {
     margin-bottom: 1rem;
+    width: 40%; 
+    max-width: 150px;   
 }
 
 .head__navegacion {
@@ -26,11 +28,26 @@
 }
 
 .head__enlace {
-    font-size: 1.1rem;
+    font-size: .7rem;
 
     display: inline-block;
 
-    margin-right: .7rem;
+    margin-right: .2rem;
     margin-bottom: .3rem;
-    margin-left: .7rem;
+    margin-left: .2rem;
+    text-transform: uppercase;
+}
+.head__enlace:hover{
+    color: red;
+}
+
+@media screen and (min-width: 1024px) {
+    .head {
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;
+    }
+    .head__enlace{
+        font-size: .8rem;
+    }
 }
